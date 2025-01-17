@@ -2,10 +2,12 @@ package com.ordermsa.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.ordermsa.entity.OrderEntity;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
+@Getter
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @NoArgsConstructor
 public class OrderResponse {
